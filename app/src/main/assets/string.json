@@ -74,56 +74,7 @@
     "duration": 229000,
     "path": "music/khon.mp3",
     "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2015/03/21/1/3/7/8/1426916158066.jpg"
-  },
-
-  {
-    "id": "19",
-    "title": "Outside",
-    "artist": "Calvin Harris",
-    "duration": 202000,
-    "path": "music/outside.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2024/09/16/1/a/9/c/1726499548853.jpg"
-
-  },
-  {
-    "id": "20",
-    "title": "Save your tears",
-    "artist": "The weeknd",
-    "duration": 249000,
-    "path": "music/saveyoutears.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2024/09/20/7/6/d/f/1726846772803.jpg"
-  },
-  {
-    "id": "21",
-    "title": "Poker face",
-    "artist": "Lady Gaga",
-    "duration": 238000,
-    "path": "music/poker.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2024/10/18/4/b/3/c/1729253574392.jpg"
-  },
-
-  {
-    "id": "23",
-    "title": "That Girl",
-    "artist": "Ava Max",
-    "duration": 259000,
-    "path": "music/thatgirl.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2024/10/20/8/b/c/f/1729426939850.jpg"
-  },
-  {
-    "id": "24",
-    "title": "Dancin",
-    "artist": "Aaron Smith",
-    "duration": 244000,
-    "path": "music/dancing.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2022/08/08/2/9/b/8/1659969794627.jpg"
-  },
-  {
-    "id": "25",
-    "title": "Cupid",
-    "artist": "FIFTY FIFTY",
-    "duration": 146000,
-    "path": "music/cupid.mp3",
-    "albumArtUri": "https://avatar-ex-swe.nixcdn.com/playlist/2024/09/04/a/9/b/5/1725387889981.jpg"
   }
+
+
 ]
