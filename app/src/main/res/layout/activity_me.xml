@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    tools:context=".MeActivity">
+
+    <Button
+        android:id="@+id/btnFavourite"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/baseline_favorite_24"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAllCaps="false"
+        android:text="Favourite"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnPlaylist"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/playlist"
+        android:text="Playlist"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/baseline_logout_24"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+</LinearLayout>

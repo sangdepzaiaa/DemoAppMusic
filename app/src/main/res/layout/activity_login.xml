@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19191b"
+    tools:context=".LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient_color_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:textColor="@color/white"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="128dp"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/edtuser"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="128dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="UserName"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/intro_btn_backgroud"/>
+            <EditText
+                android:id="@+id/edtpass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="PassWord"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/intro_btn_backgroud"/>
+            <TextView
+                android:id="@+id/txvLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Sign Up?"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Started"
+                android:layout_marginTop="64dp"
+                android:layout_marginHorizontal="128dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/intro_btn_backgroud"
+                style="@android:style/Widget.Button"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

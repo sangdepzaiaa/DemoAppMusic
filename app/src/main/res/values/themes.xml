@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MusicApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MusicApp" parent="Base.Theme.MusicApp" />
+
+    <style name="splash_screen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="round">
+        <item name="cornerFamily"></item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

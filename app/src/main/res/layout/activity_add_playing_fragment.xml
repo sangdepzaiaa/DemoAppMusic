@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    tools:context=".AddPlayingFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bordermusicview"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgfrag"
+                android:background="@drawable/borderimage"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:foregroundGravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nct"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:id="@+id/txvfrag"
+            android:text="dddddddddd"
+            android:layout_width="120dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btnplaypuaefrag"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/play"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btnnextfrag"
+            android:layout_width="40dp"
+            android:layout_weight="1"
+
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_height="70dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="40dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="40dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgfa"
+            android:background="@drawable/borderimage"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:foregroundGravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nct"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:layout_weight="7"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:id="@+id/txvFa"
+        android:text="ssssssss"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/btndeletefa"
+        android:layout_width="40dp"
+        android:layout_weight="1"
+
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_delete_24"/>
+</LinearLayout>
